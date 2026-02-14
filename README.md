@@ -50,12 +50,10 @@ Rules enforced for replacement dataset (as per assignment):
 Build and compare six machine learning classification models on one dataset, evaluate each model using Accuracy, AUC, Precision, Recall, F1, and MCC, and deploy an interactive Streamlit application that supports test CSV upload, model selection, metric display, and confusion matrix/classification report.
 
 ### b. Dataset description
-- Default dataset used: **Breast Cancer Wisconsin (Diagnostic)** (public UCI dataset via scikit-learn loader)
-- Instances: **569**
-- Features: **30 numeric features**
-- Target: **Binary class (malignant/benign encoded in `target`)**
-- Storage in this project: **SQLite DB** at `data/dummy_classification.db`
-- You can replace this with your own dataset using `model/replace_dataset.py`.
+- Default dataset used: **Credit Card** (public UCI dataset via scikit-learn loader)
+- Instances: **1579**
+- Features: **18 numeric features**
+- Target: **Binary class (Credit Card Approved/Rejected`)**
 
 ### c. Models used
 1. Logistic Regression
@@ -113,10 +111,4 @@ Use the values from that file in your submission PDF table.
 5. Set main file path to: `ml_assignment_2_project/app.py`.
 6. Click **Deploy**.
 
-## 7. Mandatory Submission Items (as per assignment)
-
-1. GitHub repository link
-2. Live Streamlit app link
-3. One screenshot from BITS Virtual Lab execution
-4. README content included in the final submitted PDF
 
